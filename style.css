@@ -1,0 +1,147 @@
+.nav .ul{
+list-style-type: none;
+margin-top: 0;
+padding: 0;
+overflow: hidden;
+background-color: rgb(254, 191, 73);
+}
+
+.nav .li{
+    float: right;
+}
+ 
+.nav li a {
+    display: block;
+    color: rgb(144, 51, 5);
+    text-align: center;
+    padding: 5px 12px;
+    text-decoration: underline;
+    font-weight: bolder;
+}
+
+.nav li a:hover {
+    background-color: rgb(149, 255, 0);
+    color: orangered;
+}
+
+/* .name{
+    padding:0 ;
+    margin: 0;
+    font-weight: bolder;
+    color:rgb(144, 51, 5) ;
+    text-align: left;
+    margin-bottom: -5px;
+} */
+
+.nav li{
+    display: block;
+    color: rgb(144, 51, 5) ;
+    text-align: left;
+    /* padding: 14px 16px; */
+    text-decoration: underline;
+    font-weight: bolder;
+}
+
+h1{
+    width: 260px;
+    border: 5px solid orange;
+    text-align: center;
+    border-radius: 20px;
+  
+}
+p{
+    margin: 0;
+    color: rgb(255, 166, 0);
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.container img{
+    margin-top: 30px;
+    padding-right: 10px;
+    border-radius: 20px;
+
+    height: 300px;
+
+}
+
+.cheesenaan{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+    height: 200px;
+    border-radius: 20px;
+    align-content: flex-end;
+    
+}
+
+.card{
+    width: 200px;
+    
+}
+ .card1{
+    width: 200px;
+    
+ }
+
+ .card2{
+    width: 200px;
+    
+ }
+.price{
+    font-weight: bolder;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+.button1{
+    background-color: orange;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition-duration: 0.4s;
+    width: 150px;
+}
+
+.button1:hover{
+    background-color: orangered;
+}
+
+.button1:focus{
+    outline: none;
+    box-shadow: 0 0 0 3px rgb(149, 255, 0);
+}
+
+.container2{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+ h2{
+    text-decoration: underline;
+ }
+
+ .roghni{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+ }
+
+ 
+ .container3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+ }
