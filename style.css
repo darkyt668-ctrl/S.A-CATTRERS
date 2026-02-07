@@ -20,8 +20,8 @@ background-color: rgb(254, 191, 73);
 }
 
 .nav li a:hover {
-    background-color: rgb(149, 255, 0);
-    color: orangered;
+    background-color:orangered;
+    color: black;
 }
 
 /* .name{
@@ -204,3 +204,184 @@ p{
     text-align: center;
     font-weight: bolder;
  }
+ 
+ *{
+    box-sizing:border-box;
+ }
+
+ input[type=text], input[type=password]
+ {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background-color: orange;
+ }
+
+ input[type=text]:focus,
+ input[type=password]:focus{
+    background-color: orangered;
+    outline: none;
+ }
+
+ hr{
+    border: 1px solid orange;
+    margin-bottom: 25px;
+ }
+
+ bottom{
+    background-color: orange;
+    color: black;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+    opacity: 0.9;
+ }
+
+ button:hover{
+    opacity: 1;
+ }
+
+ .cancelbtn{
+    padding: 14px 20px;
+    background-color: orange;
+    height: 40px;
+    font-weight: bolder;
+ }
+
+ .signupbtn{
+    padding: 14px 20px;
+    background-color: orange;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    font-size: 13px;
+    font-weight: bolder;
+ }
+
+ .cancelbtn .signupbtn{
+    float: left;
+    width: 50%;
+    border-radius: 20px;
+ }
+
+ .clearfix::after{
+       content: "";
+       clear: both;
+       display: table;
+ }
+
+ @media screen and (max-width:300px){
+    .cancelbtn, .signupbtn {
+        width: 100%;
+    }
+ }
+
+ .container0{
+    width: 400px;
+    border: 5px solid orange;
+    border-radius: 8px;
+    margin-left: 580px;
+ }
+ .signup{
+    text-align: center;
+    margin-left: 85px;
+    height: 80px;
+    text-decoration: underline;
+ }
+
+ .search{
+   width: 100px;
+   height: 100px;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+ }
+
+ .searchbtn{
+   background-color: orange;
+    border: none;
+    color: black;
+    padding: 8px 23px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: -100px 30px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition-duration: 0.4s;
+    width: 100px;
+ }
+
+ .searchbtn:hover{
+   background-color: orangered;
+ }
+
+ .searchbtn:focus{
+   outline: none;
+  box-shadow: 0 0 0 3px orange; 
+ }
+
+ .howwework p{
+   text-align: center;
+   width: 250px;
+   margin-left: 580px;
+ }
+
+ .head1{
+   text-align: center;
+   text-decoration: underline;
+   font-weight: bold;
+   margin-left: 580px;
+ }
+
+ .Termsandcondition p{
+            text-align: center;
+            width: 250px;
+            margin-left: 580px;
+ }
+
+ .tc{
+   width: 290px;
+   margin-left: 580px;
+   text-align: center;
+   text-decoration: underline;
+   font-weight: bold;
+ }
+
+ .head3{
+     margin-left: 580px;
+     text-align: center;
+     text-decoration: underline;
+     font-weight: bold;
+ }
+
+.pp{
+   width: 250px;
+   text-align: center;
+   margin-left: 580px;
+}
+
+.fade-loop h1{
+  animation: fadeInOut 3s infinite;
+}
+
+@keyframes fadeInOut {
+   0%, 100% {opacity: 0;}
+   50% {opacity: 1;}
+}
+
+
+.container h1{
+  animation: fadeInOut 3s infinite;
+}
+
+@keyframes fadeInOut {
+   0%, 100% {opacity: 0;}
+   50% {opacity: 1;}
+}
+
