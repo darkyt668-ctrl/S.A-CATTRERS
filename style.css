@@ -412,7 +412,7 @@ button:hover {
 
 .workcontainer img {
    width: 400px;
-   display: flex;
+   display: grid;
    flex-direction: row;
    justify-content: center;
    margin: 0 auto;
@@ -550,9 +550,9 @@ button:hover {
    }
 
    .workcontainer {
-      flex-direction: column;
+      grid-column-start:auto;
       justify-content: center;
-      overflow: hidden; 
+      
    
    }
 
@@ -567,6 +567,8 @@ button:hover {
       justify-content: center;
 
    }
+
+   
 }
 
 
