@@ -5,27 +5,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 </head>
 <body>
-    <div class="nav">
-        <nav>
-            <ul class="ul">
-                <li class="li"><a href="about.html">ABOUT US</a></li>
-                <li class="li"><a href="explore.html">MENU</a></li>
-                <li class="li"><a href="index.html">Home</a></li>
-                <div class="navcontainer">
-                <img style="width: 30px; height: 30px;" src="Untitled design.png" alt="">
-                <li>S.A CATERES</li>
-            </div>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <img src="Untitled design.png" style="width: 50px;" alt="">
+          <a class="navbar-brand" href="index.html" style="font-weight: bolder;">S.A CATERERS</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a  class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="explore.html">MENU</a>
+              </li>
               
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">ABOUT US</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="signin.html">SIGN IN</a>
+              </li>
+                
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true"></a>
+              </li>
             </ul>
-            
-        </nav>
-    </div>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+              <button class="btn btn-outline-warning" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
     <!-- --------------------------------- -->
     <form action="signin.html">
         <div class="container0">
-            <h1 class="signup">SIGN UP</h1>
+            <h1 style="margin-top: 10px;" class="signup">SIGN UP</h1>
             <p>SIGN UP TO CONTINUE</p>
             <hr>
 
@@ -51,12 +73,13 @@
         <p>By creating an account you agree to our <a href="about.html" style="color: dodgerblue;">Terms & Privacy</a></p>
 
         <div class="clearfix">
-            <button type="button" class="cancelbtn">Cancel</button>
-            <button type="submit" class="signupbtn"> SIGN UP</button>
+            <button style="text-align: center; margin-left: 10px;" type="button" class="cancelbtn">Cancel</button>
+            <button style="text-align: center; margin-left: 10px ;" type="submit" class="signupbtn"> SIGN UP</button>
         </div>
         </div>
     </form>
    
-   
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
 </body>
 </html>

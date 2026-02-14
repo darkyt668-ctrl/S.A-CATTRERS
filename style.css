@@ -1,3 +1,7 @@
+*{
+   box-sizing: border-box;
+}
+
 .nav .ul {
    list-style-type: none;
    margin-top: 0;
@@ -235,7 +239,7 @@ input[type=password]:focus {
 }
 
 hr {
-   border: 1px solid orange;
+   border: 2px solid orange;
    margin-bottom: 25px;
    display: flex;
    margin: 0 auto;
@@ -257,24 +261,26 @@ button:hover {
 }
 
 .cancelbtn {
-   padding: 14px 20px;
+   padding: 10px 20px;
    background-color: orange;
    height: 40px;
    font-weight: bolder;
+   text-align: center;
+   font-size: 14px;
 }
 
 .signupbtn {
-   padding: 14px 20px;
+   padding: 10px 20px;
    background-color: orange;
    width: 100px;
    height: 40px;
    text-align: center;
-   font-size: 13px;
+   font-size: 14px;
    font-weight: bolder;
 }
 
 .cancelbtn .signupbtn {
-   float: left;
+   float: center;
    width: 50%;
    border-radius: 20px;
 }
@@ -289,7 +295,6 @@ button:hover {
    width: 400px;
    border: 5px solid orange;
    border-radius: 15px;
-   /* margin-left: 580px; */
    display: grid;
    flex-direction: column;
    justify-content: center;
@@ -340,45 +345,54 @@ button:hover {
 .howwework p {
    text-align: center;
    width: 250px;
-   margin-left: 580px;
+   margin:0 auto;
+   border: 1px solid orangered;
+   border-radius: 20px;
 }
 
 .head1 {
    text-align: center;
    text-decoration: underline;
    font-weight: bold;
-   margin-left: 580px;
+   margin:0 auto;
 }
 
 .Termsandcondition p {
    text-align: center;
    width: 250px;
-   margin-left: 580px;
+   margin: 0 auto ;
+   border: 1px solid orangered;
+   border-radius: 20px;
 }
 
 .tc {
    width: 290px;
-   margin-left: 580px;
+   margin:0 auto;
    text-align: center;
    text-decoration: underline;
    font-weight: bold;
+   font-size: 30px;
 }
 
 .head3 {
-   margin-left: 580px;
+   margin: 0 auto;
    text-align: center;
    text-decoration: underline;
    font-weight: bold;
+   font-size: 30px;
 }
 
 .pp {
    width: 250px;
    text-align: center;
-   margin-left: 580px;
+   margin: 0 auto ;
+   border: 1px solid orangered;
+   border-radius: 20px;
 }
 
 .fade-loop h1 {
    animation: fadeInOut 3s infinite;
+   font-size: 30px;
 }
 
 @keyframes fadeInOut {
@@ -396,6 +410,7 @@ button:hover {
 
 .container h1 {
    animation: fadeInOut 3s infinite;
+   font-size: 30px;
 }
 
 @keyframes fadeInOut {
@@ -449,6 +464,7 @@ button:hover {
    display: flex;
    flex-direction: row;
    justify-content: space-evenly;
+   margin-right: 300px;
 }
 
 #image1 {
